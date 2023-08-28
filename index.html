@@ -106,9 +106,9 @@ h2, p {
 div h2 {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
+	white-space: nowrap;
 }
 
-p a,
 p b {
 	font-weight: bold;
 	white-space: nowrap;
@@ -142,12 +142,7 @@ li i {
 	padding-bottom: 4px;
 	padding-right: 6px;
 	margin: -4px 0 12px;
-	background: linear-gradient(rgba(255,255,255,0.5),transparent);
 	border-radius: 0 10px 10px 0;
-}
-
-.games a:first-child {
-	font-weight: bold;
 }
 
 .games i {
@@ -164,12 +159,12 @@ menu ul {
 }
 
 main {
-	max-width: 600px;
+	max-width: 520px;
 	padding-bottom: 20px;
-	margin: -110px 30px 0 520px;
+	margin: -110px 30px 0 460px;
 }
 
-@media only screen and (max-width: 960px) { 
+@media only screen and (max-width: 900px) { 
 	body		{ font-size: 16px; line-height: 24px; }
 	ul 			{ line-height: 30px; }
 	header 		{ height: 130px; margin-bottom: 20px; padding-left: 5px; }
@@ -178,18 +173,18 @@ main {
 	h1 			{ background-size: 240px 127px; }
 	menu 		{ margin-top: 36px; }
 	menu ul 	{ padding-left: 130px; }
-	main 		{ margin: -110px 20px 0 410px; }
+	main 		{ margin: -110px 20px 0 360px; }
 }
 
-@media only screen and (max-width: 760px) { 
+@media only screen and (max-width: 720px) { 
 	body 		{ padding: 0; }
 	header ul 	{ margin: -180px 0 0 15px; }
 	.address	{ margin-top: 100px; }
 	menu ul 	{ padding-left: 20px; }
-	main 		{ margin: -130px 20px 0 300px; }
+	main 		{ margin: -130px 20px 0 250px; }
 }
 
-@media only screen and (max-width: 560px) { 
+@media only screen and (max-width: 540px) { 
 	main 		{ clear: left; margin: 0; padding-top: 2px; }
 	main div 	{ border-radius: 0; }
 }
@@ -202,7 +197,7 @@ main {
 	<h1>kin</h1>
 	<h2>board game &amp; PC cafe</h2>
 	<ul>
-		<li>open <b>Fri–Sun</b> </span><span>from <b>10am–10pm</b></li>
+		<li>open <b>Thu–Sun</b>, noon to 8pm+</li>
 		<li class="address"><a href="https://goo.gl/maps/YhnUiPPnEjZb7DD99"><i class="pad fa-solid fa-location-dot"></i> <b>1019 B St</b>, Hayward, CA</a></li>
 	</ul>
 </header>
@@ -210,42 +205,42 @@ main {
 	<ul class="games">
 		<li>
 			<a href="https://tinyurl.com/kincafe-boardgameslibrary"><i class="fa-solid fa-chess-board"></i> board games</a>
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdvOL3r0ijKIBhyENW2XDlUNvvWTZYsemz2EMfYqh-3tc5gGA/viewform">reserve a table</a>
+			<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvOL3r0ijKIBhyENW2XDlUNvvWTZYsemz2EMfYqh-3tc5gGA/viewform">reserve a table</a> -->
 		</li>
 		<li>
 			<a href="https://tinyurl.com/kincafe-pcgameslibrary"><i class="fa-solid fa-computer-mouse" style="padding:0 1px"></i> PC games</a>
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdvOL3r0ijKIBhyENW2XDlUNvvWTZYsemz2EMfYqh-3tc5gGA/viewform">reserve a station</a>
+			<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvOL3r0ijKIBhyENW2XDlUNvvWTZYsemz2EMfYqh-3tc5gGA/viewform">reserve a station</a> -->
 		</li>
 		<li>
 			<a href="https://tinyurl.com/eventcalendar-kin"><i class="fa-regular fa-calendar"></i> event calendar</a>
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSeoguYJ8xxRt-LQlENzorQ6ZNOnU7S_qk2ox7KXygLenD4vpQ/viewform">book an event</a>
+			<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoguYJ8xxRt-LQlENzorQ6ZNOnU7S_qk2ox7KXygLenD4vpQ/viewform">book an event</a> -->
 		</li>
 	</ul>
 	<ul>
 		<li><a href="https://discord.gg/VAHctnc">join our <i class="fa-brands fa-discord"></i> Discord</a></li>
-		<li><a href="https://www.instagram.com/kin.hayward/">follow our <i class="fa-brands fa-instagram"></i> Instagram</a></li>
-		<li><a href="sms:+15104043624">text us @ 510.404.3624</a>
+		<!-- <li><a href="https://www.instagram.com/kin.hayward/">follow our <i class="fa-brands fa-instagram"></i> Instagram</a></li> -->
+		<li><a href="sms:+15104043624"><i class="fa-regular fa-comment"></i> 510.404.3624</a>
 		<li>
 			<a href="mailto:info@kin.fyi"><i class="fa-regular fa-envelope"></i> info&#8201;@&#8201;kin.fyi</a>
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLScbomZLH8Zr-2TjQEZdkS4BURaPA36GAXKHBNn8-TUngbI3ww/viewform"><i class="fa-regular fa-comment-dots"></i> feedback</a>
+<!-- 			<a href="https://docs.google.com/forms/d/e/1FAIpQLScbomZLH8Zr-2TjQEZdkS4BURaPA36GAXKHBNn8-TUngbI3ww/viewform"><i class="fa-regular fa-comment-dots"></i> feedback</a> -->
 		</li>
 	</ul>
 </menu>
 <main>
 	<div>
-		<h2>Our Space</h2>
-		<p>Access to our venue and board game collection is <b>$5&#8201;/&#8201;person</b>, with a 15% discount for groups of 6+ people. Come by, find a table, and stay for as long as you’d like. The venue fee also grants you a <b>free hour</b> of PC/console access for the same day (expires at&nbsp;closing).</p>
-		<p>Just need a space to study or get some work done? No problem! Come take advantage of our wifi, power outlets, and all-day <a href="menu.pdf">food menu</a>.</p>
+		<p>Welcome to <b>kin</b>! We are a local, family-run business offering a casual space to work, study, and enjoy board games and video games. Our multi-purpose building includes a homestyle restaurant, as well as an eclectic collection of antiques, vintage jewelry and gifts for sale. We hope you&rsquo;ll come by and check us out!</p>
+	</div>
+	<div>
+		<h2>Board Games & Workspace</h2>
+		<p>For <b>$5&#8201;/&#8201;person</b> you can access our full <a href="https://tinyurl.com/kincafe-boardgameslibrary">board game collection</a>, as well as use our wifi &amp; power outlets to study or work; find a table and stay as long as you&nbsp;like!</p>
 	</div>
 	<div>
 		<h2>Digital Entertainment</h2>
-		<p>PC access is <b>$5&#8201;/&#8201;hour</b> — prepaid hours stay on your account so you can come back any time to keep playing. Or buy a day pass for only&nbsp;$15.</p>
-		<p>Our Tier 1 PCs have Ryzen 5 5600X processors, GeForce RTX 4070s, and 144Hz 1440p monitors. We also have a set of Tier 2 PCs (GTX 780, 1080p) at a discounted rate, perfect for web browsing or less demanding&nbsp;games.</p>
+		<p>PC access is <b>$5&#8201;/&#8201;hour</b>, and prepaid hours stay on your account so you can come back any time to keep playing. We also offer a <b>day pass</b> for only&nbsp;<b>$20</b>.</p>
 	</div>
 	<div>
-		<h2>Food&nbsp;&amp;&nbsp;Drink</h2>
-		<p>Our <a href="menu.pdf">food menu</a> is available from <b>11am–9pm</b>, while snacks and drinks are available at all hours. Beer &amp; wine is served from 4pm to&nbsp;close.</p>
-		<p>No outside food or drink is allowed except&nbsp;water.</p>
+		<h2>Food &amp; Drink</h2>
+		<p>We serve <a href="menu.pdf">food</a> from <b>12pm to 8pm</b>, and beer &amp; wine from <b>4pm to close</b>. Please don&rsquo;t bring any outside food or drink except water, thank&nbsp;you.</p>
 	</div>
 </main>
 </body>
